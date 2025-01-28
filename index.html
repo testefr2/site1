@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="Assets/styles/reset.css">
     <link rel="stylesheet" href="Assets/styles/style.css">
     <title>Convite</title>
+
+    <script defer>
+        window.onload = function() {
+          var audio = document.querySelector('audio');
+          audio.muted = false;  // Desmuta o áudio após carregar
+        };
+      </script>
 </head>
 <body>
     <div class="conteiner">
@@ -17,8 +24,12 @@
             <button>Não</button>
         </div>
     </div>
-    <div class="player_music">
-        para testar
+    <div class="player">
+
+        <audio autoplay muted controls>
+            <source src="Assets/Music/George Michael - Careless Whisper.mp3" type="audio/mp3">
+        </audio>
+        
     </div>
 </body>
 </html>
