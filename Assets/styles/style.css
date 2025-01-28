@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    
+    background-color: beige;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.conteiner{
+    margin: 10px;
+}
+
+.tittle{
+    font-size: 4em;
+    margin: 16px;
+    color: rgb(255, 0, 0);
+    box-shadow: 100px;
+    box-shadow: 2px;
+}
+
+img{
+    width: 60%;
+}
+
+.buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25%
+}
+
+a{
+    text-decoration: none;
+}
+
+.player_music{
+   /* position: absolute;
+   bottom: 0; */ 
+   background-color: rgba(105, 53, 53, 0.233);
+   width: 100%;
+   padding: 10px;
+
+}
+
