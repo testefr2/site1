@@ -9,9 +9,12 @@
 
     <script defer>
         window.onload = function() {
-          var audio = document.querySelector('audio');
-          audio.muted = false;  
+            var audio = document.querySelector('audio');
+            audio.muted = false;  
         };
+        
+        
+        
       </script>
 </head>
 <body>
@@ -19,18 +22,20 @@
         <h1 class="tittle">Quer sair pra caçar Judeus?</h1>
         <img src="Assets/Imagens 2/png-clipart-hello-kitty-cats-that-look-like-hitler-germany-humour-hello-kitty-drawings-carnivoran-kitty.png" alt="Dominic Toretto">
         <br>
+
+        <div class="player">
+
+            <audio autoplay muted controls id="musica">
+                <source src="Assets/Music/George Michael - Careless Whisper.mp3" type="audio/mp3">
+            </audio>
+            
+        </div>
         <div class="buttons">
             <button><a href="https://wa.me/5581996615809" target="_blank" rel="noopener noreferrer">Sim</a></button>
             <button><a href="https://youtu.be/IB6g_BFu6DQ" target="_blank" rel="noopener noreferrer">Não</a></button>
             
         </div>
-        <div class="player">
-
-            <audio autoplay muted controls>
-                <source src="Assets/Music/George Michael - Careless Whisper.mp3" type="audio/mp3">
-            </audio>
-            
-        </div>
+        
     </div>
     
 </body>
